@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    content
+----------------------------------------*/
+
+
+/*  .content_web bao gia web
+----------------------------------------*/
+.content_web {
+  margin: 40px 0;
+}
+.title {
+  padding: 3px;
+  background: #F8F8F8;
+  border-left: 6px solid #BDDF9C;
+  margin-bottom: 45px;
+}
+
+.txt {
+  line-height: 33px;
+  color: #363636;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.content_web .row_item {
+  float: left;
+  width: 167px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  height: 530px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: url(../img/bg-content_web.png) no-repeat 0 0;
+}
+.content_web .benifit {
+  position: relative;
+  margin-bottom: 10px;
+  width: 182px;
+  margin-top: -15px;
+  height: 600px;
+  box-shadow: 0px 0px 7px #DDD;
+  border: medium none;
+  border: 0 !important;
+  background: url(../img/bg-price-center.png) no-repeat 0 0;
+}
+.content_web .row_item h2 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.content_web .benifit h2 {
+  margin-bottom: 25px !important;  
+}
+.content_web .row_item h3 {
+  font-weight: bold;
+  font-size: 21px;
+  padding-top: 37px;
+  padding-bottom: 35px;
+  margin-bottom: 45px;
+  height: 54px;
+  background: url(../img/bg-price-circle.png) no-repeat center center;
+}
+.content_web .row_item h3 span {
+  border-bottom: 3px solid #000;
+}
+.content_web .info li {
+  border-top: 1px solid #DDD;
+  line-height: 1.5em;
+  font-size: 13px;
+  padding: 7px 13px;
+  list-style: none outside none;
+}
+
+.content_web .info span {
+  color: #ff0000;
+}
+
+.note p {
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+.note ol {
+  overflow: hidden;
+  padding-left: 20px;
+}
+.note ol li {
+  color: #000;
+  line-height: 20px;
+}
+   
+/*   content_domain
+----------------------------------------*/
+.content_domain {
+  margin-bottom: 30px;
+}
+.content_domain table {
+  width: 100%;
+}
+.content_domain table tr {
+  border: 1px solid #fff;
+  background: #f4f4f4;
+  height: 40px;
+}
+.content_domain table tr th {
+  background: #000;
+  color: #fff;
+}
+.content_domain table tr td {
+  border: 1px solid #fff;
+  padding: 0 5px;
+}
+.content_domain table tr td:hover {
+  background: #FFF;
+}
+
+
+
+   
+/*   content_hosting
+----------------------------------------*/
+.content_hosting {
+  margin-bottom: 30px;
+}
+.content_hosting .price_hosting  ul.ulfirst {
+  width: 142px;
+}
+.content_hosting .price_hosting ul {
+  width: 101px;
+}
+.content_hosting  .price_hosting {
+  border: 1px solid #ccc;
+}
+.content_hosting .row {
+  text-align: center;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+.content_hosting .rowlast {
+  border-right: 0;
+}
+.content_hosting .row li {
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.content_hosting .row li.lilast {
+  border-bottom: 0;
+} 
+.content_hosting .row li.licolor_1 {
+  color: #fff;
+  background: #000;
+}
+.content_hosting .row li.licolor_2 {
+  color: #fff;  
+  background: #0066aa;
+}
+.content_hosting .row ul.ulfirst {
+  background: #fff;
+}
+.content_hosting .row ul { 
+  background: #ebebeb;
+}
+.content_hosting .row ul.ulnone { 
+  background: #fff;
+}
+.content_hosting .row ul:hover {
+  -moz-box-shadow: 0 0 5px 5px #c4dceb;
+  -webkit-box-shadow: 0 0 5px 5px#c4dceb;
+  box-shadow: 0 0 2px 3px #c4dceb;
+  z-index: 1;
+  position: relative;
+}
+.content_hosting .row li.licolor_2:hover {
+  background: #cd0000;
+}

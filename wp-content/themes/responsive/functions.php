@@ -28,6 +28,8 @@ require( $template_directory . '/core/includes/hooks.php' );
 require( $template_directory . '/core/includes/version.php' );
 require( $template_directory . '/core/includes/upsell/theme-upsell.php' );
 
+
+
 // Return value of the supplied responsive free theme option.
 function responsive_free_get_option( $option, $default = false ) {
 	global $responsive_options;

@@ -4,7 +4,7 @@
 if( !defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+/*
 /**
  * Footer Template
  *
@@ -23,6 +23,7 @@ if( !defined( 'ABSPATH' ) ) {
 /*
  * Globalize Theme options
  */
+
 global $responsive_options;
 $responsive_options = responsive_get_options();
 ?>
@@ -31,7 +32,8 @@ $responsive_options = responsive_get_options();
 <?php responsive_wrapper_end(); // after wrapper hook ?>
 </div><!-- end of #container -->
 <?php responsive_container_end(); // after container hook ?>
-
+<?php
+/*
 <div id="footer" class="clearfix">
 	<?php responsive_footer_top(); ?>
 
@@ -81,5 +83,54 @@ $responsive_options = responsive_get_options();
 <?php responsive_footer_after(); ?>
 
 <?php wp_footer(); ?>
+</body>
+</html>
+*/
+?>
+
+  <div class="page_top">
+    <div class="pagetop_pc">
+      <a href="#" id="home"><img src="<?php echo get_template_directory_uri()?>/vnaka/img/img-page_top.png" height="24" width="78" alt=""></a>
+    <!-- /.pagetop_pc --></div>    
+    <!-- /.page_top --></div>
+  <div id="footer">
+    <div class="footer_pc">
+      <div class="footer_menu">
+        <div class="menu_ad">
+          <ul>
+          <li class="first_child"><a href="index.html">Trang Chủ</a></li>
+          <li><a href="quotation.html">Bảng Báo Giá</a></li>
+          <li><a href="#">Mẫu Giao Diện</a></li>
+          <li class="last_child"><a href="#">Gửi Tin Nhắn</a></li>
+          </ul>
+        <!-- /.menu_ad --></div>
+        <div class="contact_ad">
+          <ul>
+            <li><span>Mr. Thinh: 090 7875 093</span></li>
+            <li><span>Email: dangducthinh@vnaka.com</span></li>
+            <li><span>Marketing &amp; Sales</span></li>
+          </ul>
+          <ul>
+            <li><span>Mr. Toàn: 01277 609 160</span></li>
+            <li><span>Email: dangkhactoan@vnaka.com</span></li>
+            <li><span>Website Development</span></li>
+          </ul>
+        <!-- /.contact_ad --></div>
+      <!-- /.footer_menu --></div>
+      <div class="copyright">
+        <p>Copyright(C)2014 VNAKA MEDIA Co.,Ltd. All Rights Reserved.</p>
+        <p class="text_last">Thiết kế website chuyên nghiệp</p>
+      <!-- /.copyright --></div>
+    <!-- /.footer_pc --></div>       
+  <!-- /#footer --></div>  
+<!-- /.warpper --></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=222487204609916&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

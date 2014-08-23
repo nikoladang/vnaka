@@ -1,4 +1,5 @@
 <?php
+/*
 /**
  * Header Template
  *
@@ -18,7 +19,7 @@
 if( !defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+/*
 ?>
 	<!doctype html>
 	<!--[if !IE]>
@@ -110,3 +111,44 @@ if( !defined( 'ABSPATH' ) ) {
 	<div id="wrapper" class="clearfix">
 <?php responsive_wrapper_top(); // before wrapper content hook ?>
 <?php responsive_in_wrapper(); // wrapper hook ?>
+
+*/
+?>
+
+<body>
+<div id="fb-root"></div>
+<div class="warpper">
+  <div id="header">
+    <div class="inner">
+      <div id="nav">
+        <ul>
+          <li class="first"><a href="./">Trang Chủ</a></li>
+          <li><a href="./aboutus.php">Giới Thiệu</a></li>
+          <li><a href="#">Khuyến Mãi</a></li>
+          <li><a href="#">Thanh Toán</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+          <li><a href="#">VNAKA Media</a></li>
+        </ul>
+      <!-- /#nav --></div>
+      <div class="logo_promotion">
+        <h1 class="logo"><img src="<?php echo get_template_directory_uri()?>/vnaka/img/logo_vnaka.png" width="" height="" alt="logo"></h1>
+        <div class="promotion">
+          <ul id="slide_promotion">
+            <li><p><marquee>Khuyến mãi đăng ký website nhân dịp 2/9 bạn được giảm 20%</marquee></p></li>
+          </ul>
+          <p class="read_more"><a href="#"><img src="<?php echo get_template_directory_uri()?>/vnaka/img/ico-chi_tiet.png" height="19" width="77" alt="Chi Tiết"></a></p>
+        <!-- /.promotion --></div>
+      <!-- /.logo --></div>
+    <!-- /.inner --></div>
+  <!-- /#header --></div>
+  <div id="global_navi" class="clearfix">
+    <div class="inner">
+      <ul>
+        <li><a href="<?php echo get_site_url() ?>">Trang Chủ</a></li>
+        <li><a href="./quotation/">Bảng Báo Giá</a></li>
+        <li><a href="#">Mẫu Giao Diện</a></li>
+        <li><a href="#">Gửi Tin Nhắn</a></li>
+      </ul>
+      <p class="hotline"><strong>HOTLINE: 090 7875 093</strong></p>
+    <!-- /.inner --></div>
+  <!-- /#global_navi --></div>

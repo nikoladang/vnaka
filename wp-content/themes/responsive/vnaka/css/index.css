@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    content
+----------------------------------------*/
+
+
+/*  article
+----------------------------------------*/
+#slideshow_sp {
+  display: none;
+}
+
+
+.content {
+  margin-bottom: 100px;
+}
+/*  article
+----------------------------------------*/
+.article .bd_title {
+  border-bottom: 1px dotted #ff0000;
+}
+
+.bd_title .title {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+
+/*  detail
+----------------------------------------*/
+.detail {
+  margin-top: 40px;
+}
+.detail,
+.detail ul {
+  overflow: hidden;
+}
+.detail {
+  width: 640px;
+  float: left;
+  display: inline-block;
+}
+.detail li {
+  margin: 0px 20px 25px 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  vertical-align: baseline;
+  background-color: transparent;
+  float: left;
+  width: 300px;
+  overflow: hidden;
+}
+.detail .tx_text {
+  margin-bottom: 10px;
+}
+.detail img {
+  margin: 0px 18px 0px 0px; 
+  padding: 0px; 
+  border: 0px; 
+  outline: 0px; 
+  vertical-align: baseline; 
+  background-color: transparent; 
+  float: left; 
+  width: 50px; 
+  height: 50px;
+}
+.detail p {
+  margin: 0px; 
+  padding: 0px 0px 0px 69px; 
+  border: 0px; 
+  outline: 0px; 
+  vertical-align: baseline; 
+  background-color: transparent; 
+  font-size: 13px; 
+  line-height: 1.5em; 
+  font-family: Arial; 
+  color: rgb(41, 41, 41);
+}
+
+
+
+/*  aside
+----------------------------------------*/
+.aside {
+  width: 320px;
+  float: right;
+  display: inline-block;
+}
+
+.item_news {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 288px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+}
+
+.txt_news {
+  text-align: center;
+  padding: 8px;
+  font-size: 117%;
+  text-transform: uppercase;
+  color: #fff;
+  background: #6e5431;
+}
+.news ul {
+  margin-top: 20px;
+}
+.news ul li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.news ul li img {
+  width: 55px;
+  height: 55px;
+  float: left;
+  display: block;
+}
+.news ul li .text_item {
+  padding-left: 70px;
+}
+
+
+.item_we {
+  margin: 20px 0;
+  overflow: hidden;
+  background: #2161a0;
+  padding: 5px;
+}
+
+.item_we p {
+  float: left;
+  padding-right: 25px;
+}
+
+.item_facebook {
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+/*---------------------------------------
+    リセットCSS（編集不要）
+----------------------------------------*/
+html{overflow-y:scroll;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}table{border-collapse:collapse;border-spacing:0;}caption,th{text-align:left;}q:before,q:after{content:'';}object,embed{vertical-align:top;}hr,legend{display:none;}h1,h2,h3,h4,h5,h6{font-size:100%;}img,abbr,acronym,fieldset{border:0;}ul li{list-style-type:none;}a,label{cursor:pointer;}img{vertical-align:bottom;margin:0;padding:0;}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background: #fff;
+  position: relative;
+  font-size: 76%;
+  color: #000;
+}
+
+.clearfix:after {
+  content:".";display:block;visibility:hidden;height:0.1px;font-size:0.1em;line-height:0;clear:both;
+}
+
+/*----------------------------------------
+   header
+----------------------------------------*/
+#header {
+  background: #c7eafc;
+  border-top: 4px solid #0a8cd0;
+}
+
+/* logo
+----------------------------------------*/
+
+.inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+/* nav at the top
+----------------------------------------*/
+#nav {
+  overflow: hidden;
+  position: relative;
+}
+#nav ul {
+  float: right;
+  overflow: hidden;
+  background: #0a8cd0;
+  padding: 8px;
+  border-radius: 0 0 5px 5px;
+  webkit-border-radius: 0 0 5px 5px;
+  mz-border-radius: 0 0 5px 5px; 
+}
+#nav ul li {
+  float: left;
+  color: #fff; 
+}
+#nav ul li.first a {
+  padding-left: 0;
+}
+#nav ul li a {
+  padding-left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#nav ul li a:hover {
+  color: #8ebef9;
+  text-decoration: underline;
+}
+/* logo
+----------------------------------------*/
+.logo_promotion {
+  overflow: hidden;
+}
+.logo_promotion .logo {
+  float: left;
+  display: inline-block;
+  width: 190px;
+}
+
+.logo_promotion .promotion {
+  width: 760px;
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#slide_promotion p {
+  font-size: 159%;
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.read_more {
+  padding: 5px;
+  margin-top: 10px;
+  float: right;
+  background: #2161a0;
+  border-radius: 5px;
+  webkit-border-radius: 5px;
+  mz-border-radius: 5px; 
+}
+.read_more a {
+  text-decoration: none;
+  color: #000;
+}
+.read_more a:hover {
+  color: #ff0000;
+}
+
+
+
+/* global_navi 
+----------------------------------------*/
+#global_navi {
+  overflow: hidden;
+  background: #79bbdd;
+}
+#global_navi ul li {
+  float: left;
+  text-align: center;
+  width: 120px;
+  line-height: 36px;
+}
+#global_navi ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+#global_navi ul li a:hover {
+  background: #8bc6e4;
+} 
+
+.hotline {
+  float: right;
+  padding-top: 7px;
+  font-size: 159%;
+  color: #08405c;
+}
+.hotline strong {
+  background: #fff;
+}
+
+
+
+/*----------------------------------------
+    footer
+----------------------------------------*/
+
+/*  
+page_top
+--------------------------------------*/
+.page_top {
+  overflow: hidden;
+  text-align: right;
+  margin-top: -24px;  
+}
+.pagetop_pc {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+/*  
+footer
+--------------------------------------*/
+#footer {
+  padding: 21px 0 30px 0;
+  overflow: hidden;
+  background: #333333;
+  border-top: 3px solid #e62d2d;
+}
+.footer_pc {
+  width: 940px;
+  margin: 0 auto;
+}
+.footer_menu {
+  float: left;
+  overflow: hidden;
+}
+.menu_ad {
+  display: inline-block;
+}
+.menu_ad li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #555555;  
+}
+.menu_ad li a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+.menu_ad li.last_child {
+  border: none;
+}
+.menu_ad li.first_child {
+  padding-left: 0;
+}
+.contact_ad {
+  margin-top: 15px;
+  display: block;
+}
+.contact_ad ul {
+  float: left;
+  padding-right: 20px;
+}
+.contact_ad ul li {
+  line-height: 22px;
+}
+.contact_ad ul li span {
+  color: #7d7d7d;
+}
+.copyright {
+  float: right;
+  text-align: right;
+  display: inline-block;
+}
+.copyright p {
+  margin: 0;
+  padding: 0;
+  color: #bbbbbb;
+}
+.copyright p.text_last {
+  margin: 13px 0 18px 0;
+  color: #7d7d7d;
+}
+
