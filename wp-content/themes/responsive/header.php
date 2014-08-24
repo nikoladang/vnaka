@@ -147,7 +147,7 @@ if( !defined( 'ABSPATH' ) ) {
         <li><a href="<?php echo get_site_url() ?>">Trang Chủ</a></li>
         <li><a href="./quotation/">Bảng Báo Giá</a></li>
         <li><a href="#">Mẫu Giao Diện</a></li>
-        <li><a href="#">Gửi Tin Nhắn</a></li>
+        <li><a href="./message/">Gửi Tin Nhắn</a></li>
       </ul>
       <p class="hotline"><strong>HOTLINE: 090 7875 093</strong></p>
     <!-- /.inner --></div>
