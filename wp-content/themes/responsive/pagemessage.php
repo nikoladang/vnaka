@@ -46,7 +46,7 @@ Template Name: message.php
         <?php echo the_title(); ?>
         <?php while ( have_posts() ) : the_post(); ?>
 
-          <?php get_template_part( 'post-data' ); ?>
+          <?php the_content(); ?>
 
         <?php endwhile; ?>
       <!-- /#message --></div>
