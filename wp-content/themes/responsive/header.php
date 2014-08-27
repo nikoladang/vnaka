@@ -125,7 +125,7 @@ if( !defined( 'ABSPATH' ) ) {
           <li class="first"><a href="./">Trang Chủ</a></li>
           <li><a href="./aboutus.php">Giới Thiệu</a></li>
           <li><a href="#">Khuyến Mãi</a></li>
-          <li><a href="#">Thanh Toán</a></li>
+          <li><a href="./payment.php">Thanh Toán</a></li>
           <li><a href="#">Liên Hệ</a></li>
           <li><a href="#">VNAKA Media</a></li>
         </ul>
