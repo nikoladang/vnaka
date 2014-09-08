@@ -134,7 +134,7 @@ if( !defined( 'ABSPATH' ) ) {
         <h1 class="logo"><img src="<?php echo get_template_directory_uri()?>/vnaka/img/logo_vnaka.png" width="" height="" alt="logo"></h1>
         <div class="promotion">
           <ul id="slide_promotion">
-            <li><p><marquee>Game mới KitKun chơi được quà như ý <a href="http://vnaka.com/03_kitkun/index.html">link tại đây</a></marquee></p></li>
+            <li><p><marquee>Game mới KitKun chơi được quà như ý <a href="http://vnaka.com/03_kitkun/index.html" target="_blank">link tại đây</a></marquee></p></li>
           </ul>
           <p class="read_more"><a href="#"><img src="<?php echo get_template_directory_uri()?>/vnaka/img/ico-chi_tiet.png" height="19" width="77" alt="Chi Tiết"></a></p>
         <!-- /.promotion --></div>
